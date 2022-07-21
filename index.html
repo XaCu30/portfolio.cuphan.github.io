@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Phan - Booking site</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/booking-16x16.png">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">
+                        About me
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="subnav">
+                            <li><a href="#chef">Chef</a></li>
+                            <li><a href="#photo">Photographer</a></li>
+                            <li><a href="#">Developer</a></li>
+                        </ul>
+                </li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#">
+                        More 
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="subnav">
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#extras">Extras</a></li>
+                            <!-- <li><a href="">Media</a></li> -->
+                        </ul>
+                </li>
+            </ul>
+            <!-- End nav -->
+
+            <!-- Begin search -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+            <!-- End search -->
+
+        </div>
+        
+        <div id="slider">
+            <div class="text-content" style="width: 100%;">
+                <div class="text-heading" style="font: bolder 10px;">Carlos Phan</div>
+                <div class="text-description">Photographer | Chef | Content Creator </div>  
+                <div class="text-description">in Food and Beverage industry</div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <!-- About section -->
+            <div id="about" class="content-section">
+                <h2 class="section-heading">Phan Duy Cu</h2>
+                <p class="section-sub-heading">Make everything better</p>
+                <p class="about-text">A person had 5 years as photographer for events and pre-wedding before going to Finland. During studying time, I did as a event manager in an event called "International farwell dinner in Imatra in 2018". I also worked for Saimaa Event Club from 2017 to 2019 in creating social media marketing plans. worked as a chef in Ventuno - an Italian restaurant, of BW-Restaurants Oy from July 2019 to July 2021. 
+                    After 5 years in tourism industry. I decided to change my major to a developer to be a full-stack developer. In a far future, I hope I can improve myself to be a better version.</p>
+            </div>
+
+            <div class="picture"></div>
+
+            <!-- Chef section -->
+            <div id="chef" class="content-chef-section">
+                <h2 class="section-chef-heading">A professional chef</h2>
+                <p class="section-chef-sub-heading">An endless passion</p>
+                <p class="about-chef-text">A chef is at the heart of a restaurant, preparing meals, developing new dishes and menus, and guiding the overall direction of the kitchen. Chefs must also manage and mentor subordinates, and collaborate with restaurant marketing and sales teams to keep up with food trends and cooking styles.        
+                </p>
+            </div>
+            <div class="dishes-list">
+                <div class="dishes-item">
+                        <p class="dishes">Starter</p>
+                        <img src="/assets/img/starter.JPG" alt="Name" class="dishes-img">
+                </div>
+                <div class="dishes-item">
+                        <p class="dishes">Main</p>
+                        <img src="/assets/img/main.JPEG" alt="Name" class="dishes-img">
+                </div>
+                <div class="dishes-item">
+                        <p class="dishes">Dessert</p>
+                        <img src="/assets/img/dessert.JPG" alt="Name" class="dishes-img">
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <!-- Photographer section -->
+            <div id="photo" class="content-photo-section">
+                <h2 class="section-photo-heading">A professional photographer</h2>
+                <p class="section-photo-sub-heading">7 years and more</p>
+                <p class="about-photo-text">All photographs are memento mori. To take a photograph is to participate in another person’s (or thing’s) mortality, vulnerability, mutability. Precisely by slicing out this moment and freezing it, all photographs testify to time’s relentless melt. - Susan Sontag
+                </p>
+            </div>
+            <div class="photo-list">
+                <div><img src="/assets/img/photo1.jpg" alt="Ricky1" class="photo-po"></div>
+                <div><img src="/assets/img/photo2.jpg" alt="Ricky2" class="photo-po"></div>
+                <div class="clear"></div>
+            </div>
+
+            <!-- Booking section -->
+            <div id="booking" class="booking-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">Booking</h2>
+                    <p class="section-sub-heading text-white">Reserve time for cooking and taking photos!</p>
+                    <!-- Booking time -->
+                    <ul class="booking-dates">
+                        <li>August <span class="fully-booked">Fully-booked</span></li>
+                        <li>September <span class="fully-booked">Fully-booked</span></li>
+                        <li>October <span class="quantity">5</span></li>
+                    </ul>
+                     <!-- Month -->
+                     <div class="row months-places">
+                        <div class="col places">
+                            <img src="/assets/img/HKI.jpg" alt="Helsinki" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Helsinki</h3>
+                                <p class="place-time">August 2022</p>
+                                <p class="place-desc">Private dinner</p>
+                                <button class="btn js-buy-ticket">Reserve</button>
+                            </div>
+                        </div>
+                        <div class="col places">
+                            <img src="/assets/img/HAN.jpg" alt="Hanoi" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Hanoi</h3>
+                                <p class="place-time">September 2022</p>
+                                <p class="place-desc">Private dinner + Photo shoot</p>
+                                <button class="btn js-buy-ticket">Reserve</button>
+                            </div>
+                        </div>
+                        <div class="col places">
+                            <img src="/assets/img/HAM_245x184.jpg" alt="Helsinki" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Hamburg</h3>
+                                <p class="place-time">October 2022</p>
+                                <p class="place-desc">Private dinner + Photo shoot</p>
+                                <button class="btn js-buy-ticket">Reserve</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                </div>
+            </div>
+
+            <!-- Begin Contact section -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading contact-heading">Contact</h2>
+                <p class="section-sub-heading">Please contact me for any question!</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Helsinki, Finland</p>
+                        <p><i class="ti-mobile"></i>Mobile: <a href="tel:+358452675885"> (+358) 45 267 5885</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:phduycu3010@gmail.com"> phduycu3010@gmail.com</a></p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="firstName"  class="form-control" required placeholder="Name...">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email"  class="form-control" required placeholder="Email...">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text"  class="form-control" required placeholder="Message">
+                                </div>
+                            </div>
+                           <div>
+                            <input type="submit" value="SEND" class="btn mt-16 pull-right">
+                           </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact section -->
+
+            <div id="extras" class="map-section">
+                <img src="./assets/img/map.jpg" alt="Map">
+            </div>
+
+        </div>
+
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter-alt"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+                <a href=""><i class="ti-skype"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm"> w3.css</a></p>
+        </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="ti-bag" style="margin-right: 16px";></i>
+                Booking
+            </header>
+
+            <div class="modal-body">
+                <label for="firstName" class="modal-label">
+                    <i class="ti-user"></i>
+                    Name of the booking person
+                </label>
+                <input id="firstName" type="text" class="modal-input" placeholder="What is your name?" id="name">
+
+                <label for="email" class="modal-label">
+                    <i class="ti-email"></i>
+                    Send to
+                </label>
+                <input id="email" type="text" class="modal-input" placeholder="Enter email..." id="name">
+            
+                <button id="buy-tickets">
+                    <i class="ti-check"></i> Book 
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer =  document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+
+        // Show 'modal booking' (add a modal)
+        function showBuybooking() {
+            modal.classList.add('open')
+        }
+
+        // Hide 'modal booking' (remove a modal)
+        function hideBuybooking() {
+            modal.classList.remove('open')
+        }
+
+
+        //Check through buttons and activities 'click'
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuybooking)
+        }
+
+        // check close button
+        modalClose.addEventListener('click', hideBuybooking)
+
+        modal.addEventListener('click', hideBuybooking)
+
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        // Open/Close Mobile menu
+        mobileMenu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+        } else {
+            header.style.height = null;
+        }
+    }
+
+        // Auto close on click menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"')
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function() {
+                var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('sub-nav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+        }
+    }
+    </script>
+
+</body>
+</html>

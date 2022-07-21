@@ -1,0 +1,135 @@
+/* mobile */
+@media (max-width: 640px) {
+    #nav{
+        display: block;
+    }
+
+    #nav>li{
+        display: block;
+        background-color: black;
+    }
+
+    #nav> li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        opacity: 0.8;
+    }
+
+    #nav .subnav a{
+        color: balck;
+        padding-left: 40px;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block ;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    h2.section-heading {
+        margin-top: 24px;
+    }
+
+    h2.section-chef-heading{
+        padding: 0 24px;
+    }
+
+    #about.content-section,
+    #content .about-chef-text,
+    #content .about-photo-text
+    {
+        padding-left: 0;
+        width: 80%;
+    }
+
+    #content .about-chef-text{
+
+    }
+
+
+    #content .dishes-item{
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    #content #contact {
+        width: 80%;
+        padding: 0;
+    }
+
+    #content .picture{
+        height: 260px;
+    }
+
+    .contact-content{
+        margin: 24px 0;
+    }
+
+    #content .content-section{
+        width: 90%;
+        padding: 48px 0;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    #content .places {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    
+    .col.col-half.contact-form,
+    .col.col-half.contact-info
+    {
+        width: 105%;
+        padding-left: 0;
+    }
+
+    #content .months-places{
+        margin-bottom: 0;
+    }
+
+    .col.col-half.contact-info{
+        margin-bottom: 24px;
+    }
+
+    .col-half{
+        width: 100%;
+        padding-top: 8px;
+    }
+    
+    .contact-heading{
+        padding-top: 24px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px 24px;
+
+    }
+
+}
+
+/* Ipad */
+@media (max-width: 1023px) {
+    .btn{
+        padding: 12px 24px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    div#contact{
+        padding-left: 8px !important;
+    }
+}
